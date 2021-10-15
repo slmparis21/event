@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<head>
+<title>page</title>
+
+<link  rel="stylesheet" href="css/recipes.css" >
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+
+</head>
+
+<body>
+    <!-- <script src="js/recipe.js"></script> -->
+    <div id='logo'>
+        <a href="book.html"> <image src="src/sous le manteau.png"></image></a>
+    </div>
+    <!-- <div id="app">
+        {{ message }}
+    </div> -->
+
+    <!-- <div id="img">   
+        <image src="src/woman.png"></image></div>
+  -->
+    <div id="content">
+        <div class="column">
+            <table id="td">
+
+        <tr>
+            <td class="left">Gingembre confit
+                <div class="overlay">
+                    <img src="src/ingredients/ginger.png">
+                </div></td>
+            </td> 
+            <td class="right">. . .  60, 0</td>
+        </tr>
+        <tr>
+            <td class="left">Limons        d°</td> 
+            <td class="right">		   30, 0</td>
+        </tr>
+        <tr>
+            <td class="left">Girofle         d°</td> 
+            <td class="right">		     30, 0</td>
+        </tr>
+        <tr>
+            <td class="left">Muscades   d°</td> 
+            <td class="right">		   12, 0</td>
+        </tr>
+        <tr>
+            <td class="left">Opiat de Salomon</td> 
+            <td class="right"> …. 15,0</td>
+        </tr>
+        </table>
+        </div>
+        <div class="column">
+        <table id="td">
+
+            <tr>
+                <td class="left">Cannelle</td> 
+                <td class="right"> . . . . . . . . . . 1,20</td>
+            </tr>
+            <tr>
+                <td class="left">Cascarille</td> 
+                <td class="right"> . . . . . . . . . 2,0</td>
+            </tr>
+            <tr>
+                <td class="left">Huile de girofle</td> 
+                <td class="right"> . . .     2,5</td>
+            </tr>
+            <tr>
+                <td class="left">---</td> 
+                <td class="right">de cannelle . . 0,5</td>
+            </tr>
+            <tr>
+                <td class="left">Sirop d’oeillet</td> 
+                <td class="right"> . . . .  Q.S.</td>
+            </tr>
+        </table>
+
+        </div>
+    </div>
+  
+        <div class="row">
+            <img src="src/deco.png">
+
+        </div>
+        <!-- Gingembre confit . . .  60, 0
+        Limons        d°		   30, 0
+        Girofle         d°		   30, 0
+        Muscades   d°		   12, 0
+        Opiat de Salomon …. 15,0
+        
+        Cannelle . . . . . . . . . . 1,20
+        Cascarille . . . . . . . . . 2,0
+        Huile de girofle . . .     2,5
+        -        de cannelle . . 0,5
+        Sirop d’oeillet . . . .  Q.S. -->
+    
+</div>
+    <span class="circle"></span>
+    <script> 
+    var app = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello Vue!'
+    }
+  })
+    </script>
+</body>
+<style>
+#content{
+    opacity: 1.0 !important;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+</style>
+</html>

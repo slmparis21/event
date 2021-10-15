@@ -1,0 +1,71 @@
+@font-face {
+    font-family: OldNewspaperTypes;
+    src: url(/font/OldNewspaperTypes.ttf);
+}
+.body{
+    font-family: OldNewspaperTypes;
+}
+p{
+    font-size:40px !important;
+}
+
+.logo{
+    width:50px;
+    height:auto;
+    position: absolute;
+    display:block;
+}
+h2{
+    /* position: absolute; */
+    font-size: 40px;
+    font-family: OldNewspaperTypes;
+    /* display: flex !important; */
+    /* margin-left: 15px; */
+    /* bottom: 15%; */
+}
+#img {
+    width: 300px;
+    height: auto;
+    left: 10%;
+    position: absolute;
+}
+#img img {
+    width: 300px;
+    opacity: 0.4;
+}
+#content{
+    position: absolute;
+    display: block;
+    float: right;
+    right: 0px;
+    top: 10px;
+    margin-right: 10px;
+    width: 65%;
+    /* font-size: 25px; */
+    opacity: 1.0;
+}
+svg{
+    width:100%;
+    height:auto;
+    display:flex;
+    position:absolute;
+}
+.circle {
+    background: #3CAC8C;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+/* #circles{
+    position: absolute;
+    height:auto;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #3CAC8C;
+
+} */
