@@ -2,12 +2,26 @@
     font-family: OldNewspaperTypes;
     src: url(/font/OldNewspaperTypes.ttf);
 }
+@import url("https://use.typekit.net/xzh7rce.css");
+#app {
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    transition: all 0.2s;
+  }
 .body{
     font-family: OldNewspaperTypes;
 }
 p{
     font-size:40px !important;
+    font-family: minion-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 50%;
 }
+/* button{
+    border:none;
+} */
 
 .logo{
     width:50px;
@@ -22,6 +36,8 @@ h2{
     /* display: flex !important; */
     /* margin-left: 15px; */
     /* bottom: 15%; */
+    opacity: 50%;
+
 }
 #img {
     width: 300px;
@@ -38,7 +54,7 @@ h2{
     display: block;
     float: right;
     right: 0px;
-    top: 10px;
+    top:0px;
     margin-right: 10px;
     width: 65%;
     /* font-size: 25px; */
@@ -51,15 +67,38 @@ svg{
     position:absolute;
 }
 .circle {
-    background: #3CAC8C;
-    width: 120px;
-    height: 120px;
     border-radius: 50%;
     position: absolute;
     right: 0px;
     bottom: 0px;
 }
-/* #circles{
+.product ul {
+    display: inline-flex;
+    width: 40%;
+    position: absolute;
+    /* height: 0; */
+    right: 10%;
+    height: 50%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+.card {
+    /* position: fixed; */
+    /* display: block; */
+    background: white;
+    width: 400px;
+    /* height:auto; */
+    /* top: 10%; */
+    /* right: 5%; */
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgb(0 0 0 / 0%);
+}
+.v-btn{
+    width:160px;
+    min-width:160px;
+}
+#circles{
     position: absolute;
     height:auto;
     left: 0%;
@@ -68,4 +107,4 @@ svg{
     bottom: 0%;
     background: #3CAC8C;
 
-} */
+}

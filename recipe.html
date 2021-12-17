@@ -11,23 +11,20 @@
 </head>
 
 <body>
+
+
+
     <!-- <script src="js/recipe.js"></script> -->
     <div id='logo'>
         <a href="book.html"> <image src="src/sous le manteau.png"></image></a>
     </div>
-    <!-- <div id="app">
-        {{ message }}
-    </div> -->
-
-    <!-- <div id="img">   
-        <image src="src/woman.png"></image></div>
-  -->
     <div id="content">
+
         <div class="column">
             <table id="td">
 
         <tr>
-            <td class="left">Gingembre confit
+            <td class="left">Gingembre confit 
                 <div class="overlay">
                     <img src="src/ingredients/ginger.png">
                 </div></td>
@@ -35,28 +32,40 @@
             <td class="right">. . .  60, 0</td>
         </tr>
         <tr>
-            <td class="left">Limons        d°</td> 
-            <td class="right">		   30, 0</td>
+            <td class="left">Limons       d°</td> 
+            <td class="right">		  30, 0</td>
         </tr>
         <tr>
-            <td class="left">Girofle         d°</td> 
-            <td class="right">		     30, 0</td>
+            <td class="left">Girofle        d°
+                <div class="overlay">
+                    <img src="src/ingredients/girofle.png">
+                </div>
+            </td> 
+            <td class="right">		      30, 0</td>
         </tr>
         <tr>
-            <td class="left">Muscades   d°</td> 
-            <td class="right">		   12, 0</td>
+            <td class="left">Muscades  d°
+                <div class="overlay">
+                    <img src="src/ingredients/musk copy.png">
+                </div>
+            </td> 
+            <td class="right">	  	    12, 0</td>
         </tr>
         <tr>
             <td class="left">Opiat de Salomon</td> 
-            <td class="right"> …. 15,0</td>
+            <td class="right"> ….15,0</td>
         </tr>
         </table>
         </div>
         <div class="column">
         <table id="td">
 
-            <tr>
-                <td class="left">Cannelle</td> 
+            <tr style="width: 100%">
+                <td class="left",>Cannelle
+                    <div class="overlay">
+                        <img src="src/ingredients/cannelle.png">
+                    </div>
+                </td> 
                 <td class="right"> . . . . . . . . . . 1,20</td>
             </tr>
             <tr>
@@ -78,12 +87,13 @@
         </table>
 
         </div>
-    </div>
-  
-        <div class="row">
-            <img src="src/deco.png">
 
-        </div>
+        
+    </div>
+    <div class="row">
+        <img id="deco" src="src/deco.png">
+
+    </div>
         <!-- Gingembre confit . . .  60, 0
         Limons        d°		   30, 0
         Girofle         d°		   30, 0
@@ -98,6 +108,7 @@
     
 </div>
     <span class="circle"></span>
+    <script src="js/dataloading.js"></script>
     <script> 
     var app = new Vue({
     el: '#app',
@@ -111,9 +122,9 @@
 #content{
     opacity: 1.0 !important;
 }
-.column {
-  float: left;
-  width: 50%;
-}
 </style>
+<script>
+
+    
+</script>
 </html>

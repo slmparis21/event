@@ -6,11 +6,16 @@
 <title>page</title>
 
 <link  rel="stylesheet" href="css/style.css" >
+<script type="module">
+  import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.esm.browser.js'
+</script>
+
 <!-- <link rel="stylesheet" href=""> -->
-<script></script>
 </head>
 
 <body>
+    <script src="js/main.js" type = "module"></script>
+
     <div id='logo'>
         <a href="book.html"> <image src="src/sous le manteau.png"></image></a>
 
@@ -30,7 +35,17 @@
         je crie à la fenêtre, pas trop fort. Le vent dehors, la pluie bientôt. 
         C’est décidé, je me parfume, vite, pour aller écouter la mer.
     </p></div>
-    <span class="circle"></span>
+    <span class="circle" @click="click(index)"></span>
+    <v-btn
+    class="mx-2"
+    fab
+    dark
+    small
+    color="primary">
+  </v-btn>
+     <!-- <div id="app">
+        {{ message }}
+    </div> -->
 <!-- 
     <svg>
         <circle id="circles" cx="100" cy="100" r="150" stroke="none" stroke-width="none" color="#3CAC8C"/>

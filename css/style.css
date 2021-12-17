@@ -35,6 +35,13 @@ h3{
     left: 25%;
     position: absolute;
 }
+.overlay img{
+    display:flex;
+    width: 300px;
+    height: auto;
+    position: absolute;
+
+}
 #img img {
     width: 300px;
 }
