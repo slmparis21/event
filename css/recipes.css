@@ -1,6 +1,6 @@
 @font-face {
     font-family: OldNewspaperTypes;
-    src: url(/font/OldNewspaperTypes.ttf);
+    src: url('font/OldNewspaperTypes.ttf');
 }
 
 /* @import url("https://use.typekit.net/xzh7rce.css"); */
