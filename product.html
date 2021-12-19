@@ -25,10 +25,14 @@
 
 <div id="app2">
 
-    <div id="content">
+    <div id="content" style="opacity:60%">
             <h2>{{product}}</h2>
+            <br>
             <p>{{contents}}</p>
+            <br>
+            <br>
             <img src="src/deco.png">
+
     </div>
 
     <div class="product">
@@ -42,13 +46,14 @@
        
         
         </ul>
-        <ul>
+        <ul id="button">
         <v-btn
         depressed
         elevation="1"
         large
         flex
-        >Explore More</v-btn>
+        >
+        <a href="/recipe.html">Explore More</a></v-btn>
         </ul>
     </div>
         <span class="circle"  v-bind:style="{background: thisColor,width:w,height:h}" ></span>

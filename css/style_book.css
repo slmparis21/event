@@ -1,6 +1,6 @@
 @font-face {
     font-family: OldNewspaperTypes;
-    src: url(event/font/OldNewspaperTypes.ttf);
+    src: url(font/OldNewspaperTypes.ttf);
 }
 @import url("https://use.typekit.net/xzh7rce.css");
 #app {
@@ -72,27 +72,36 @@ svg{
     right: 0px;
     bottom: 0px;
 }
-.product ul {
-    display: inline-flex;
+.product {
+    display: inline-block;
+    position: fixed;
+    margin-top:40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    top: 0px;
+    height: 100%;
     width: 40%;
-    position: absolute;
-    /* height: 0; */
-    right: 10%;
-    height: 50%;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: flex-end;
-    justify-content: flex-end;
+    right: 0px;
+    margin-right: 20px;
+}
+.product ul {
+    display: block;
+    height: auto;
+    width:90%;
 }
 .card {
-    /* position: fixed; */
-    /* display: block; */
+
     background: white;
-    width: 400px;
-    /* height:auto; */
-    /* top: 10%; */
-    /* right: 5%; */
+    /* width: 400px; */
+
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgb(0 0 0 / 0%);
+}
+ul#button {
+    /* width: 100%; */
+    /* right: 0px; */
+    display: flex;
+    padding-top: 10px;
+    justify-content: flex-end;
 }
 .v-btn{
     width:160px;
